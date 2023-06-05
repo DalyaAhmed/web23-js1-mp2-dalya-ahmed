@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Rock, Paper, Scissors Game</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="./js/main.js" defer></script>
+    </head>
+
+    <body>
+        <h1>Rock Paper Scissors</h1>
+
+        <form>
+            <div id="form">
+                <label for="item">Enter your name:</label>
+                <input type="text" id="item" />
+                <button class="add">Add</button>
+            </div>
+        </form>
+        <div id="item-container">
+            
+        </div>
+
+        <!-- <input type="text" id="player-name" placeholder="Enter your name" /> -->
+
+        <div class="choices">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+
+        <div id="result"></div>
+
+        <div id="score">
+            <p>Player: <span id="player-score">0</span></p>
+            <p>Computer: <span id="computer-score">0</span></p>
+        </div>
+
+        <p id="moves-left"></p>
+
+        <button id="restart">Restart</button>
+    </body>
+</html>
